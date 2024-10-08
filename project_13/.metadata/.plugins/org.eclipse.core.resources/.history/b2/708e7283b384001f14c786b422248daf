@@ -1,0 +1,5 @@
+package com.mangesh.boot.batch.model;
+
+public class Product {
+
+}

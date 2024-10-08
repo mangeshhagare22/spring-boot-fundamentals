@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.batch=1
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.mysql=1
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.artifactId=batchcsvtodb
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.bootVersion=3.3.4
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.description=Spring Batch Csv to Db Demo
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.groupId=com.mangesh.boot.batch
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.javaVersion=17
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.language=java
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.name=batchcsvtodb
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packageName=com.mangesh.boot.batch
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packaging=jar
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.type=MAVEN
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.version=0.0.1-SNAPSHOT
+org.springframework.ide.eclipse.boot.wizard.initializr.url=https\://start.spring.io\n

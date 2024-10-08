@@ -1,0 +1,25 @@
+package com.mangesh.boot.batch.config;
+
+import org.springframework.batch.item.ItemReader;
+import org.springframework.batch.item.file.FlatFileItemReader;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.core.io.ClassPathResource;
+
+import com.mangesh.boot.batch.model.Product;
+
+@Configuration
+public class BatchConfig {
+	
+	@Bean
+	public ItemReader<Product> reader()
+	{
+		FlatFileItemReader<Product> reader = new FlatFileItemReader<>();
+		reader.setResource(new ClassPathResource("products.csv"));
+		return null;
+		
+	}
+	
+	
+
+}

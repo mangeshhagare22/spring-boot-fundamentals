@@ -1,0 +1,23 @@
+package com.mangesh.boot.batch.config;
+
+import org.springframework.batch.item.ItemReader;
+import org.springframework.batch.item.file.FlatFileItemReader;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import com.mangesh.boot.batch.model.Product;
+
+@Configuration
+public class BatchConfig {
+	
+	@Bean
+	public ItemReader<Product> reader()
+	{
+		FlatFileItemReader<Object> reader = new FlatFileItemReader<>();
+		return null;
+		
+	}
+	
+	
+
+}
