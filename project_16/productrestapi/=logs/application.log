@@ -1,0 +1,111 @@
+2024-10-18T15:06:28.307+05:30  WARN 6580 --- [productrestapi] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16h17m24s169ms25µs200ns).
+2024-10-18T15:55:45.692+05:30  INFO 6580 --- [productrestapi] [RMI TCP Connection(87)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-10-18T15:55:46.014+05:30  INFO 6580 --- [productrestapi] [RMI TCP Connection(87)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-18T15:55:46.027+05:30  INFO 6580 --- [productrestapi] [RMI TCP Connection(87)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-18T15:55:46.040+05:30  INFO 6580 --- [productrestapi] [RMI TCP Connection(87)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-18T15:56:31.019+05:30  INFO 23372 --- [productrestapi] [main] c.m.springweb.ProductrestapiApplication  : Starting ProductrestapiApplication using Java 17.0.6 with PID 23372 (D:\SpringBoot\spring-boot-fundamentals\project_16\productrestapi\target\classes started by mangeshh3 in D:\SpringBoot\spring-boot-fundamentals\project_16\productrestapi)
+2024-10-18T15:56:31.022+05:30  INFO 23372 --- [productrestapi] [main] c.m.springweb.ProductrestapiApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-10-18T15:56:32.966+05:30  INFO 23372 --- [productrestapi] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-18T15:56:33.015+05:30  INFO 23372 --- [productrestapi] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interface.
+2024-10-18T15:56:33.670+05:30  INFO 23372 --- [productrestapi] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-18T15:56:33.684+05:30  INFO 23372 --- [productrestapi] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-18T15:56:33.684+05:30  INFO 23372 --- [productrestapi] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-18T15:56:33.772+05:30  INFO 23372 --- [productrestapi] [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
+2024-10-18T15:56:33.773+05:30  INFO 23372 --- [productrestapi] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2720 ms
+2024-10-18T15:56:34.011+05:30  INFO 23372 --- [productrestapi] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-18T15:56:34.318+05:30  INFO 23372 --- [productrestapi] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@772cf46b
+2024-10-18T15:56:34.320+05:30  INFO 23372 --- [productrestapi] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-18T15:56:34.363+05:30  INFO 23372 --- [productrestapi] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-18T15:56:34.440+05:30  INFO 23372 --- [productrestapi] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-10-18T15:56:34.483+05:30  INFO 23372 --- [productrestapi] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-18T15:56:34.829+05:30  INFO 23372 --- [productrestapi] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-18T15:56:35.671+05:30  INFO 23372 --- [productrestapi] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-18T15:56:35.674+05:30  INFO 23372 --- [productrestapi] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-18T15:56:36.009+05:30  WARN 23372 --- [productrestapi] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-18T15:56:36.708+05:30  WARN 23372 --- [productrestapi] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 48386c3d-1aa4-41c4-9cf6-6bb8f8907b37
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-10-18T15:56:36.726+05:30  INFO 23372 --- [productrestapi] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-10-18T15:56:36.815+05:30  INFO 23372 --- [productrestapi] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-10-18T15:56:36.986+05:30  INFO 23372 --- [productrestapi] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/productapi'
+2024-10-18T15:56:36.999+05:30  INFO 23372 --- [productrestapi] [main] c.m.springweb.ProductrestapiApplication  : Started ProductrestapiApplication in 6.352 seconds (process running for 12.166)
+2024-10-18T15:56:38.021+05:30  INFO 23372 --- [productrestapi] [RMI TCP Connection(10)-127.0.0.1] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-18T15:56:38.022+05:30  INFO 23372 --- [productrestapi] [RMI TCP Connection(10)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-18T15:56:38.025+05:30  INFO 23372 --- [productrestapi] [RMI TCP Connection(10)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-18T15:59:05.336+05:30  INFO 23372 --- [productrestapi] [http-nio-8080-exec-5] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 128 ms
+2024-10-18T16:11:53.526+05:30  INFO 23372 --- [productrestapi] [RMI TCP Connection(26)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-10-18T16:11:53.776+05:30  INFO 23372 --- [productrestapi] [RMI TCP Connection(26)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-18T16:11:53.778+05:30  INFO 23372 --- [productrestapi] [RMI TCP Connection(26)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-18T16:11:53.788+05:30  INFO 23372 --- [productrestapi] [RMI TCP Connection(26)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-18T16:12:10.054+05:30  INFO 25296 --- [productrestapi] [main] c.m.springweb.ProductrestapiApplication  : Starting ProductrestapiApplication using Java 17.0.6 with PID 25296 (D:\SpringBoot\spring-boot-fundamentals\project_16\productrestapi\target\classes started by mangeshh3 in D:\SpringBoot\spring-boot-fundamentals\project_16\productrestapi)
+2024-10-18T16:12:10.058+05:30  INFO 25296 --- [productrestapi] [main] c.m.springweb.ProductrestapiApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-10-18T16:12:11.189+05:30  INFO 25296 --- [productrestapi] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-18T16:12:11.298+05:30  INFO 25296 --- [productrestapi] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 97 ms. Found 1 JPA repository interface.
+2024-10-18T16:12:12.026+05:30  INFO 25296 --- [productrestapi] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-18T16:12:12.036+05:30  INFO 25296 --- [productrestapi] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-18T16:12:12.036+05:30  INFO 25296 --- [productrestapi] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-18T16:12:12.102+05:30  INFO 25296 --- [productrestapi] [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
+2024-10-18T16:12:12.103+05:30  INFO 25296 --- [productrestapi] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1986 ms
+2024-10-18T16:12:12.441+05:30  INFO 25296 --- [productrestapi] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-18T16:12:12.753+05:30  INFO 25296 --- [productrestapi] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1f75fd1d
+2024-10-18T16:12:12.756+05:30  INFO 25296 --- [productrestapi] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-18T16:12:12.807+05:30  INFO 25296 --- [productrestapi] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-18T16:12:12.849+05:30  INFO 25296 --- [productrestapi] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-10-18T16:12:12.879+05:30  INFO 25296 --- [productrestapi] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-18T16:12:13.228+05:30  INFO 25296 --- [productrestapi] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-18T16:12:14.094+05:30  INFO 25296 --- [productrestapi] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-18T16:12:14.098+05:30  INFO 25296 --- [productrestapi] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-18T16:12:14.524+05:30  WARN 25296 --- [productrestapi] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-18T16:12:15.404+05:30  WARN 25296 --- [productrestapi] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: ad30b098-1757-4b19-87f6-7d165d9b85a8
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-10-18T16:12:15.423+05:30  INFO 25296 --- [productrestapi] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-10-18T16:12:15.554+05:30  INFO 25296 --- [productrestapi] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-10-18T16:12:15.773+05:30  INFO 25296 --- [productrestapi] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/productapi'
+2024-10-18T16:12:15.787+05:30  INFO 25296 --- [productrestapi] [main] c.m.springweb.ProductrestapiApplication  : Started ProductrestapiApplication in 6.204 seconds (process running for 7.627)
+2024-10-18T16:12:16.906+05:30  INFO 25296 --- [productrestapi] [RMI TCP Connection(9)-127.0.0.1] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-18T16:12:16.906+05:30  INFO 25296 --- [productrestapi] [RMI TCP Connection(9)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-18T16:12:16.908+05:30  INFO 25296 --- [productrestapi] [RMI TCP Connection(9)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-10-18T16:12:44.617+05:30  INFO 25296 --- [productrestapi] [http-nio-8080-exec-2] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 146 ms
+2024-10-18T16:35:34.884+05:30  INFO 25296 --- [productrestapi] [RMI TCP Connection(35)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-10-18T16:35:35.151+05:30  INFO 25296 --- [productrestapi] [RMI TCP Connection(35)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-18T16:35:35.154+05:30  INFO 25296 --- [productrestapi] [RMI TCP Connection(35)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-18T16:35:35.167+05:30  INFO 25296 --- [productrestapi] [RMI TCP Connection(35)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-18T16:35:42.683+05:30  INFO 33212 --- [productrestapi] [main] c.m.springweb.ProductrestapiApplication  : Starting ProductrestapiApplication using Java 17.0.6 with PID 33212 (D:\SpringBoot\spring-boot-fundamentals\project_16\productrestapi\target\classes started by mangeshh3 in D:\SpringBoot\spring-boot-fundamentals\project_16\productrestapi)
+2024-10-18T16:35:42.685+05:30  INFO 33212 --- [productrestapi] [main] c.m.springweb.ProductrestapiApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-10-18T16:35:43.558+05:30  INFO 33212 --- [productrestapi] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-18T16:35:43.619+05:30  INFO 33212 --- [productrestapi] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interface.
+2024-10-18T16:35:44.202+05:30  INFO 33212 --- [productrestapi] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-18T16:35:44.215+05:30  INFO 33212 --- [productrestapi] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-18T16:35:44.215+05:30  INFO 33212 --- [productrestapi] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-18T16:35:44.290+05:30  INFO 33212 --- [productrestapi] [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
+2024-10-18T16:35:44.291+05:30  INFO 33212 --- [productrestapi] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1558 ms
+2024-10-18T16:35:44.521+05:30  INFO 33212 --- [productrestapi] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-18T16:35:44.813+05:30  INFO 33212 --- [productrestapi] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32513dea
+2024-10-18T16:35:44.816+05:30  INFO 33212 --- [productrestapi] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-18T16:35:44.854+05:30  INFO 33212 --- [productrestapi] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-18T16:35:44.908+05:30  INFO 33212 --- [productrestapi] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-10-18T16:35:44.943+05:30  INFO 33212 --- [productrestapi] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-18T16:35:45.239+05:30  INFO 33212 --- [productrestapi] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-18T16:35:45.942+05:30  INFO 33212 --- [productrestapi] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-18T16:35:45.946+05:30  INFO 33212 --- [productrestapi] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-18T16:35:46.300+05:30  WARN 33212 --- [productrestapi] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-18T16:35:47.074+05:30  WARN 33212 --- [productrestapi] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 47a5266e-e53f-4372-910f-4f621d6fb750
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-10-18T16:35:47.089+05:30  INFO 33212 --- [productrestapi] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-10-18T16:35:47.174+05:30  INFO 33212 --- [productrestapi] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-10-18T16:35:47.339+05:30  INFO 33212 --- [productrestapi] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/productapi'
+2024-10-18T16:35:47.356+05:30  INFO 33212 --- [productrestapi] [main] c.m.springweb.ProductrestapiApplication  : Started ProductrestapiApplication in 5.059 seconds (process running for 6.341)
+2024-10-18T16:35:48.394+05:30  INFO 33212 --- [productrestapi] [RMI TCP Connection(9)-127.0.0.1] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-18T16:35:48.394+05:30  INFO 33212 --- [productrestapi] [RMI TCP Connection(9)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-18T16:35:48.396+05:30  INFO 33212 --- [productrestapi] [RMI TCP Connection(9)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
