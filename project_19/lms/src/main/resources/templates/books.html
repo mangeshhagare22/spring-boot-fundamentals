@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Books</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}" href="../static/css/style.css">
+
+</head>
+<body>
+<h2>NextGen LMS</h2>
+<h2 align="center">Books</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>ISBN</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr th:each="book : ${books}">
+            <td th:text="${book.title}"></td>
+            <td th:text="${book.author}"></td>
+            <td th:text="${book.isbn}"></td>
+        </tr>
+    </tbody>
+</table>
+<a th:href="@{/borrow}">Borrow Book</a>
+<a th:href="@{/return}">Return Book</a>
+<a th:href="@{/book/new}">Add New Book</a>
+<a th:href="@{/members}">Members</a>
+</body>
+</html>

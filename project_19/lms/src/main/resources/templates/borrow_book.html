@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Borrow Book</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}" href="../static/css/style.css">
+</head>
+<body>
+<h2 align="center">Borrow a Book</h2>
+<form th:action="@{/borrow}" method="post">
+    <label for="member">Select Member:</label>
+    <select id="member" name="memberId">
+        <option th:each="member : ${members}"
+                th:value="${member.id}"
+                th:text="${member.name}">Member Name</option>
+    </select><br/>
+
+    <label for="book">Select Book:</label>
+    <select id="book" name="bookId">
+        <option th:each="book : ${books}"
+                th:value="${book.id}"
+                th:text="${book.title}">Book Title</option>
+    </select><br/>
+
+    <button type="submit">Borrow</button>
+    <a href="/lms">Home</a>
+</form>
+</body>
+</html>
